@@ -1,7 +1,7 @@
 name: flutter_prefs
-description: "A new Flutter project."
+description: "flutter_prefs simplifies storing and updating user preferences with a lightweight key-value API for Flutter apps."
 version: 0.0.1
-homepage:
+homepage: https://github.com/mubashardev/flutter_prefs.git
 
 environment:
   sdk: ^3.5.1

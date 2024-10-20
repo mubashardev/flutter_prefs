@@ -7,7 +7,6 @@ class PreferencesHelper {
   static GetStorage get instance => GetStorage(_key);
   static const List<Type> allowedTypes = [num, bool, String, List, Map];
 
-
   static void saveValue(String key, dynamic value) {
     var valid = _validate(value);
     if (!valid) {

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_prefs/flutter_prefs.dart';
 export 'package:flutter_prefs/src/widgets/preference.dart';
 
-
 class PreferencesLayout extends StatelessWidget {
   final List<Preference> preferences;
 
@@ -15,7 +14,8 @@ class PreferencesLayout extends StatelessWidget {
     );
   }
 
-  const PreferencesLayout({super.key,
+  const PreferencesLayout({
+    super.key,
     required this.preferences,
   });
 }

@@ -3,14 +3,12 @@ import 'package:flutter_prefs/src/utils/helper.dart';
 import '../../flutter_prefs.dart';
 
 class SwitchPref extends Preference<bool> {
-
-
-  const SwitchPref({super.key,
-    required super.title,
-    required super.prefKey,
-    this.onChanged,
-    this.defaultValue = false
-  });
+  const SwitchPref(
+      {super.key,
+      required super.title,
+      required super.prefKey,
+      this.onChanged,
+      this.defaultValue = false});
 
   final Function(bool)? onChanged;
   final bool defaultValue;
